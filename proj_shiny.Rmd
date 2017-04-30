@@ -28,6 +28,10 @@ This function creates an alternative function - explorary of the data features -
 
 * Presentation URL: https://forest416.shinyapps.io/proj_shiny/
 
+* Github source URL: https://github.com/forest416/R9-w4-project 
+
+NOTE: the 5th page can only been seen in **presentaiotn URL** above
+
 ## server side code display
 ```{r eval=F,echo=TRUE}
 server <- function(input, output) {
@@ -81,7 +85,7 @@ tags$head( tags$style(HTML( 'body { background-color: #e1f2eb } html {font-size:
 ```
 
 
-## App demo
+## App demo 
 
 ```{r, echo=FALSE}
 suppressPackageStartupMessages(library(shiny))
